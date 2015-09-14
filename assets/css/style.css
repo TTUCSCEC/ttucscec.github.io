@@ -1,0 +1,16 @@
+body.landing #header {
+    position: fixed;
+}
+
+#banner:after {
+    background-image: -moz-linear-gradient(top, rgba(23, 24, 32, 0.6), rgba(23, 24, 32, 0.6)), url("images/overlay.png");;
+    background-image: -webkit-linear-gradient(top, rgba(23, 24, 32, 0.6), rgba(23, 24, 32, 0.6)), url("images/overlay.png");;
+    background-image: -ms-linear-gradient(top, rgba(23, 24, 32, 0.6), rgba(23, 24, 32, 0.6)), url("images/overlay.png");;
+    background-image: linear-gradient(top, rgba(23, 24, 32, 0.6), rgba(23, 24, 32, 0.6)), url("images/overlay.png");;
+}
+
+#fbBox {
+    left : 50%;
+    margin-right: -50%;
+    transform: translate(-50%);
+}
